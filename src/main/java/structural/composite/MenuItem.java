@@ -29,7 +29,7 @@ public class MenuItem implements BaseMenu {
     }
 
     private void notifyIllegalCall() {
-        throw new IllegalStateException("MenuItem은 하위 메뉴를 갖지 않습니다");
+        throw new IllegalStateException("지원하지 않는 기능입니다");
     }
 
     @Override
